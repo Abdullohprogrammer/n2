@@ -1,9 +1,7 @@
-/* eslint-disable react/prop-types */
 import { createContext, useContext, useEffect, useState } from 'react';
 
 const ToursContext = createContext();
 
-// eslint-disable-next-line react-refresh/only-export-components
 export const useToursContext = () => {
   return useContext(ToursContext);
 };
